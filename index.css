@@ -1,0 +1,1040 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+
+}
+.main{
+    
+display: flex;
+width: 100%;
+
+background-color:white;
+
+
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+background-color: white;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+.logo-image{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.list{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    margin-left: 100px;
+    flex-direction: row;
+    
+   
+  
+   
+    
+}
+li{
+    margin-left: 15px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+   
+    color:red;
+}
+
+.search{
+    width: 150px;
+    height: 40px;
+  border:1px solid white ;
+    border-radius: 7%;
+    display: flex;
+    margin-left: 200px;
+
+
+
+
+
+
+
+}
+input{
+    width: 200px;
+    
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-right: 10px;
+
+
+
+  
+    border: 0.5px solid rgb(240, 235, 235);
+    border-radius: 9px;
+ 
+}
+.searchlogo{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:transparent;
+
+
+
+
+
+}
+.fa-solid{
+    width: 50px;
+
+    background-color:transparent;
+    color:rgb(29, 27, 27);
+
+ margin-right: 4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+margin-top: 5px;
+ background-color: transparent;
+ position: relative;
+ 
+
+
+
+}
+
+
+
+.bag{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    width: 15px;
+    height: 15px
+
+}
+.btn{
+  
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(240, 235, 235);
+    border-radius: 9px;
+    font-weight: 600;
+
+}
+.contanct{
+
+width: 100%;
+display: flex;
+align-items: center;
+margin-top: 20px;
+justify-content: space-between;
+
+padding: 20px;
+
+
+
+
+background-color: rgb(196, 132, 132); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(214, 163, 163), rgb(233, 224, 225));
+
+
+ 
+}
+.delivered{
+    width: 100%;
+
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8rem;
+    
+    
+
+    
+    
+
+}
+.Fast{
+    width: 250px;
+    display: flex;
+    background-color: rgb(238, 196, 196);
+    box-sizing: border-box;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+   
+
+    
+}
+
+
+
+
+
+
+
+
+.faster{
+    width: 500px;
+    
+ 
+   
+
+
+} 
+
+
+
+
+.popcon{
+   
+
+    display: flex;
+    justify-content: center;
+    background-color:rgb(244, 233, 233);
+    border: 1px solid white;
+    border-radius: 50px;
+
+} 
+
+
+.heroDeliveryboy{
+    width: 100%;
+    height: 40vh;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+    margin-left: 30px;
+}
+.foodinfo{
+    width: 200px;
+    
+}
+
+
+
+.door{
+ 
+ display: flex;
+    color: rgb(228, 28, 10);
+    padding: 20px;
+
+}
+
+.foodinfo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 50px;
+  
+    box-sizing: border-box;
+
+    
+}
+.explore{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(230, 36, 36);
+    color: white;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+
+
+
+.custmer{
+
+    width: 100%;
+    height: 50vh;
+    
+   
+  
+    
+}
+.image1{
+
+    width: 100%;
+    height:50vh;
+}
+
+.about{
+    width: 100%;
+    background-color: white;
+   
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+   
+
+}
+.about1{
+    width: 300px;
+    height: 300px;
+    
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    flex-direction: column;
+
+    border-radius: 10px;
+padding: 20px;
+box-shadow: 0.1px 0.1px 0.1px rgb(242, 239, 239);
+
+
+
+
+}
+
+.abouth3{
+    
+    width: 100px;
+    height: 50px;
+    display: flex;
+}
+.para{
+    width: 250px;
+    display: flex;
+    margin-top: 10px;
+}
+/* 
+.about1:hover{
+    box-shadow: 2px 2px 2px yellow;
+} */
+
+.about2{
+    width: 250px;
+    height: 250px;
+  
+    background-color: white;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 2px rgb(205, 203, 203);
+
+}
+.chiken{
+    width: 100px;
+}
+.choose{
+    width:60px;
+  margin-top: 10px;
+    box-sizing: content-box;
+
+    
+}
+/* .about2:hover{
+    box-shadow: 2px 2px 2px yellow;
+} */
+
+
+
+.about3{
+    width: 250px;
+    height: 250px;
+  
+    background-color: white;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 2px yellow;
+
+}
+.getdelivery{
+    width: 100px;
+
+}
+.bike{
+    width: 100px;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+
+/* 
+.about3:hover{
+    box-shadow: 2px 2px 2px yellow;
+} */
+
+
+.about4{
+    width: 250px;
+    height: 250px;
+
+    background-color: white;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 2px rgb(205, 203, 203);
+}
+.phone{
+    width: 100px;
+}
+.phonehand{
+    width: 70px; 
+    padding: 10px;
+    
+
+}
+
+
+
+/* 
+.about4:hover{
+    box-shadow: 2px 2px 2px yellow;
+} */
+
+
+.Special-recipes{
+    width:100%;
+    
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+
+}
+.res2{
+    font-size: xx-large;
+    width: 100%;
+    margin-top: 20px;
+}
+.foodnav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 0.1px solid rgb(156, 147, 147);
+    margin-top: 20px;
+    
+
+}
+.foodlist{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+.foodlist>li:hover{
+    color: red;
+    border-bottom: 1px solid red;
+    
+}
+.fastfood:active{
+    color: red;
+ 
+
+}
+
+
+.vegrecipes{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.Recipes1{
+     width: 250px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    box-sizing: border-box;
+   
+    border-radius: 15px;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(139, 134, 134);
+
+} 
+
+
+.Crispy{
+    font-size: larger;
+    width: 200px;
+   
+}
+.price{
+    color: rgb(100, 91, 91);
+}
+.dolar{
+    color: red;
+}
+.card{
+width: 120px;
+height: 40px;
+background-color:transparent;
+box-sizing: border-box;
+border-radius: 15px;
+border: 1px solid red;
+color: red;
+
+}
+.card:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+
+
+.Recipes2{
+
+
+    width: 250px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    box-sizing: border-box;
+    
+    border-radius: 15px;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(139, 134, 134);
+}
+
+.Fried-Chicken{
+
+    font-size: larger;
+    width: 170px;
+    height: 170px;
+
+}
+
+.Recipes3{
+    width: 250px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+    box-sizing: border-box;
+
+    border-radius: 15px;
+    padding: 20px;
+    gap: 1rem;
+    box-shadow:  0.5px 0.5px 0.5px 0.5px rgb(223, 231, 3);
+
+}
+
+
+.Fried-Chicken{
+    font-size: larger;
+    width: 200px;
+}
+
+.price{
+    color: rgb(100, 91, 91);
+}
+.dolar{
+    color: red;
+ 
+}
+
+.card{
+    width: 120px;
+    height: 40px;
+    background-color:transparent;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1px solid red;
+    color: red;
+
+
+
+    
+    }
+
+
+
+
+
+.Recipes4{
+        width: 250px;
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+        box-sizing: border-box;
+      
+        border-radius: 15px;
+        padding: 20px;
+        gap: 1rem;
+        box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(139, 134, 134);
+    }
+    .Fried-Chicken{
+        font-size: larger;
+        width: 200px;
+    }
+    
+    .price{
+        color: rgb(100, 91, 91);
+    }
+    .dolar{
+        color: red;
+     
+    }
+    .card{
+        width: 120px;
+        height: 40px;
+        background-color:transparent;
+        box-sizing: border-box;
+        border-radius: 15px;
+        border: 1px solid red;
+        color: red;
+        
+        }
+    
+    
+    .card:hover{
+        cursor: pointer;
+        background-color: red;
+        color: white;
+    }
+    .card:active{
+        color: red;
+    }
+
+
+
+
+
+.profile{
+    width: 100%;
+background-color: rgb(237, 225, 225);
+    box-sizing: border-box;
+  
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 1rem;
+    
+
+    
+    
+    
+}
+.profile1{
+    width: 100%;
+    
+    display: flex;
+    justify-content:center;  
+    align-items: center;
+    flex-direction: column; 
+    border-right: 1px solid rgb(216, 204, 204);
+    margin-right: 50px;
+
+    /* box-shadow: 2px  red; */
+
+
+  
+}
+.coor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile2{
+  
+  width: 350px;
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+  border-radius: 9px;
+  box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(234, 229, 229);
+
+  
+
+
+
+
+}
+
+.namestyle{
+    margin-left: 20px;
+}
+.girlimage{
+  width: 110px;
+  
+  padding: 1rem;
+
+}
+
+.pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+.Marketing{
+    width: 300px;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 60px;
+margin-right: 100px;
+
+}
+
+
+
+.profile3{
+
+    width: 350px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    border-radius: 9px;
+    box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(234, 229, 229);
+    
+}
+
+
+.profile4{
+
+    width: 350px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(234, 229, 229);
+    border-radius: 9px;
+    
+}
+
+.profile5{
+
+    width: 350px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    border-radius: 9px;
+    box-shadow: 0.7px 0.7px 0.7px 0.7px rgb(234, 229, 229);
+    
+}
+
+.Rosele{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+    flex-direction: column;
+   
+
+}
+.saying{
+    width: 500px;
+    height: 150px;
+ 
+    display: flex;
+    flex-direction: column;
+   
+    align-items: start;
+    font-size: xx-large;
+}
+
+.Coordinator{
+    color:red;
+    font-size: xx-large;
+}
+.Desoza{
+    width: 100%;
+    background-color:rgb(231, 219, 219);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    align-items: center;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px rgb(203, 195, 195);
+}
+.dstar{
+    width: 100px;
+    height: 50px;
+    display: flex;
+
+  
+    align-items: center;
+    border-left:2px solid red ;
+    padding: 10px;
+}
+.pasenate{
+
+    width:100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.piragrap{
+    
+    width: 450px;
+    display: flex;
+    align-items:start;
+    justify-content:start;
+    margin-top: 2rem;
+
+}
+
+
+
+
+
+.mobileimage{
+    width: 100%;
+    background-color: white;
+    
+   padding: 100px;
+    
+}
+.mobimage{
+    width: 100%;
+    height: 100vh;
+} 
+
+
+/* :start   footer */
+
+.footer{
+    width: 100%;
+
+    background-color: rgb(227, 177, 177);
+    color:black;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+
+} 
+.End{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.footericon{
+    width: 170px;
+    padding: 20px;
+}
+.peragraf{
+    width:300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.mediaicon{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+}
+
+
+.Company{
+    width: 300px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.aboutcompany>li{
+    display: flex;
+justify-content:flex-start;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+.service{
+    width: 300px;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.aboutcompany{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Soport{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.aboutcompany{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.contact{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+}
+.aboutcompany{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+@media screen  and (max-width:1475px){
+
+    body{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+    
+    
+    }
+    
+        
+    }
+    @media screen  and (max-width:375px){
+
+        body{
+            
+          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          
+        
+        
+        }
+        
+            
+        }
